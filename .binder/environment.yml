@@ -1,0 +1,33 @@
+name: noirel
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ipympl
+  - ipywidgets
+  - jupyterlab=2
+  - matplotlib
+  - nbresuse
+  - numpy
+  - pandas
+  - python=3
+  - psutil
+  - dill
+  - partd
+  - bokeh
+  - dask
+  - autograd
+  - plotly
+  - sympy
+  - jupytext
+  - cython
+  - numba
+  - seaborn==0.10.1
+  - samtools
+  - bwa
+  - bcftools
+  - plink
+  - eigensoft  
+  - java-jdk
+  - r-base=3.6
+  - r-tidyverse
