@@ -1,8 +1,21 @@
-Where can we find repo2docker?
+# Docker4Bioinformatics
 
-/home/jnoirel/.local/bin/repo2docker
+## Calling repo2docker
 
+Where can we find repo2docker? `/usr/local/bin`
 
+Command line
+
+```
+repo2docker . --user-id 1000 --user-name jovyan
+```
+
+## Managing Docker images
+
+```
 docker image list
+```
 
-docker rmi IMAGE-ID
+```
+docker rmi <IMAGE-ID>
+```
